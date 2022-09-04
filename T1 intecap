@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author Marcelo
+ */
+import java.util.Scanner;
+public class NewClass {
+public static void main(String[] args){
+ int b1;
+ int b2;
+ Scanner sc = new Scanner(System.in);
+ System.out.println("Introduce un número entero: ");
+ b1 = sc.nextInt(); 
+ System.out.println("Introduce otro número entero: ");
+ b2 = sc.nextInt();  
+ System.out.println("Ha introducido los números: " + b1 + " y " + b2);
+}
+}
